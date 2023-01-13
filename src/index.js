@@ -1,15 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import App from './router';
+import reportWebVitals from './scripts/reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+//This is where the js connects to your index.html doccument. 
+//It finds the root element
 root.render(
   <React.StrictMode>
+    <BrowserRouter>
     <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
+//This inserts your 'app' found in router.js into the 'root' element of index.html
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

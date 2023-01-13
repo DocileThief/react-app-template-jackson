@@ -1,0 +1,25 @@
+:root {
+    --blue_one:#115883;
+    --blue_two:#246c97;
+    --blue_three:#438ab5;
+    --blue_four:#6ba5c8;
+    --blue_five: #c1deee;
+  
+    --slate_neg:#262b31;
+    --slate_zero:#2d343b;
+    --slate_one:#444e5a;
+    --slate_two:#5d6773;
+    --slate_three:#949eaa;
+    --slave_four:#bdc5cd;
+  
+    --grey_one:#333333;
+    --grey_two:#4c4c4c;
+    --grey_three:#777777;
+    --grey_four:#cccccc;
+  
+    --primary:var(--slate_zero);
+    --secondary:var(--slate_one);
+}
+img {
+    width:10%;
+}
